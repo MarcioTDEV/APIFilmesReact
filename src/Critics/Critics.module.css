@@ -1,0 +1,39 @@
+.Critics{
+    max-width: 1100px;
+    margin: 10px auto;
+    padding: 10px;
+
+    background-color: black;
+}
+.CriticsMovies{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.CriticsMoviesBox{
+    margin: 15px;
+}
+.MainSliderTitleDataButton{
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+    
+}
+.MainSliderTitleDataButton:hover{
+    background-color: white;
+    color: brown;
+}
+
+@media (min-width:800px){
+    .CriticsMovies{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:1000px){
+    .CriticsMovies{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

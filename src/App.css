@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+img{width: 100%;}
+a{color: white; text-decoration: none;}
+a:visited{color: white; text-decoration: none;}
+a:hover{color: brown;}

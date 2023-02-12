@@ -1,0 +1,45 @@
+.NoResults{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0 0 50px;
+    min-height: 86vh;
+}
+.SearchResultsMain{
+    max-width: 1100px;
+    margin: 10px auto;
+    padding: 10px;
+
+    background-color: black;
+    min-height: 86vh;
+}
+.SearchResults{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.SearchResultsBox{
+    margin: 15px;
+}
+.SearchResultsButton{
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.SearchResultsButton:hover{
+    background-color: white;
+    color: brown;
+}
+
+@media (min-width:700px){
+    .SearchResults{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:1000px){
+    .SearchResults{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

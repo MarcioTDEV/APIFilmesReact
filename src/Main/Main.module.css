@@ -1,0 +1,79 @@
+.Main {
+    max-width: 1100px;
+    margin: 10px auto;
+    padding: 10px;
+
+    background-color: black;
+}
+
+.MainSlider {
+    margin-top: 10px;
+    
+}
+
+.MainSliderPoster {
+
+    width: 100%;
+}
+
+.MainSliderTitle {
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+.MainSliderTitleImg {
+    width: 100px;
+    margin-right: 10px;
+}
+.MainSliderBotoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.MainSliderBotoes button{
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+.MainSliderBotoes button:hover{
+    color: brown;
+    background-color: white;
+}
+.MainSliderBotoes button:visited{
+    color: brown;
+    background-color: white;
+}
+.MainSliderTitleDataButton{
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.MainSliderTitleDataButton:hover{
+    background-color: white;
+    color: brown;
+}
+
+@media(min-width:768px){
+    .MainSlider{
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+    .MainSliderBotoes{
+        position: absolute;
+    }
+    .MainSliderBotoes button{
+        padding: 10px;
+    }
+    .MainSliderTitle{
+        padding-left: 10px;
+    }
+}

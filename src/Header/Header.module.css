@@ -1,0 +1,41 @@
+.Header{
+    background-color: rgb(0, 0, 0);
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 20px;
+    align-items: center;
+}
+.HeaderLogo{
+    background-color: brown;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.HeaderLogo a,.HeaderLogo a:visited,.HeaderLogo a:active {
+    color: white;
+    text-decoration: none;
+}
+.HeaderInput{
+padding: 7px;
+width: 200px;
+}
+.HeaderSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderSearch button {
+    width: 27px;
+    padding: 0px;
+    border: none;
+    box-shadow: none;
+    background-color: white;
+    cursor: pointer;
+}
